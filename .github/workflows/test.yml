@@ -32,6 +32,10 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-cov
 
+      - name: Install PyCryptic in editable mode
+        run: |
+          pip install -e .
+
       - name: Run tests
         run: |
           pytest --cov=pycryptic --cov-report=term
