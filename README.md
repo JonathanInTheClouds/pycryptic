@@ -23,7 +23,7 @@
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pycryptic.git
+   git clone https://github.com/JonathanInTheClouds/pycryptic.git
    cd pycryptic
    ```
 
